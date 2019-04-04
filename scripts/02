@@ -1,0 +1,11 @@
+#!/bin/bash
+read user
+found=$(who | grep -c $user)
+if [ $found \> 0 ]
+then
+        sudo pkill -u $user
+        sudo userdel -f $user
+        echo "user has been KO'd"
+else
+        echo "not active u silly goat"
+fi

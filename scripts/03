@@ -1,0 +1,10 @@
+#!/bin/bash
+x=$(curl --silent "https://coinmarketcap.com/currencies/bitcoin/" | grep '<span class="h2 text-semi-bold details-panel-item--price__value" data-currency-value>' | cut -f2 -d'>' | cut -f1 -d '<')
+if [ $x \> 4000 ]
+then
+	echo to the moon! weeeeeee
+	echo BTC Value: $x
+else
+	echo not today matey
+	echo BTC Value: $x
+fi

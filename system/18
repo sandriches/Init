@@ -1,0 +1,2 @@
+exit
+systemctl stop ssh

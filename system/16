@@ -1,0 +1,5 @@
+CRON:
+crontab -e (open crontab file)
+select editor
+add a task: [minute][hour][day_of_month][mon] task #use * for any field if no specific time is necessary
+save

@@ -1,0 +1,1 @@
+nslookup slash16.org | grep -i address | sed -n 2,5p

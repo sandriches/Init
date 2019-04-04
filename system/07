@@ -1,0 +1,1 @@
+systemctl status sshd | sed -n 7p | cut -c 7-15

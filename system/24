@@ -1,0 +1,1 @@
+dpkg --get-selections | cut -f1 -d$'\t'

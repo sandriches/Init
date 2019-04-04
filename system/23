@@ -1,0 +1,2 @@
+GRAPHIC: enter username and password on login/when prompted
+SSH: ssh -p [host_port_number] new_user@localhost
